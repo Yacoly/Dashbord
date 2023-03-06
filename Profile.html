@@ -1,0 +1,175 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Profile</title>
+    <link rel="stylesheet" href="style.css" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC"
+      crossorigin="anonymous"
+    />
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" />
+  </head>
+  <body>
+    <div class="container-fluid">
+      <ul class="nav nav-pills nav-justified">
+        <li class="nav-item">
+          <span class="text-dark"> <i class="fa fa-bars" aria-hidden="true"></i> SB Admin Pro</span>
+        </li>
+        <li class="nav-item">
+          <button type="button" class="btn btn-labeled btn-success">
+            <span class="btn-label">search <i class="fa fa-search" aria-hidden="true"></i></span>
+          </button>
+        </li>
+        <li class="nav-item">
+          <h4>Documentation <i class="fa fa-angle-right" aria-hidden="true"></i></h4>
+        </li>
+        <li class="nav-item">
+          <i class="fa fa-bell-o" aria-hidden="true"></i>
+        </li>
+        <li class="nav-item">
+          <i class="fa fa-envelope-o" aria-hidden="true"></i>
+        </li>
+        <li class="nav-item">
+          <img src="images/image/woman.png" alt="photo" />
+        </li>
+      </ul>
+    </div>
+    <div class="main-container d-flex">
+      <div class="sidebar" id="side-nav">
+        <div class="header-box px-3 pt-3 pb-4">
+          <!-- <h1 class="fs-4">
+            <span class="text-dark"> <i class="fa fa-bars" aria-hidden="true"></i> SB Admin Pro</span>
+          </h1> -->
+        </div>
+        <ul class="list-unstyled px-2">
+          <li class="">
+            <a href="Dashboard.html" class="dash-text"><i class="fa fa-th-large" aria-hidden="true"></i> Dashboard</a>
+          </li>
+          <li class="">
+            <a href="Profile.html" class="dash-text"><i class="fa fa-user-circle-o" aria-hidden="true"></i> Profile</a>
+          </li>
+          <li class="">
+            <a href="#" class="dash-text"><i class="fa fa-pencil-square-o" aria-hidden="true"></i> Billing</a>
+          </li>
+          <li class="">
+            <a href="#" class="dash-text"><i class="fa fa-shield" aria-hidden="true"></i> Sécurity</a>
+          </li>
+        </ul>
+      </div>
+      <div class="content">
+        <div class="title-head">
+          <div class="icon-1">
+            <i class="fa fa-user-o" aria-hidden="true"></i>
+          </div>
+          <div class="title-hea">
+            <h4>Account Setting Profile</h4>
+          </div>
+        </div>
+        <div class="navlink-titl">
+          <ul class="navli-head">
+            <li class="">
+              <a href="Profile.html" class="dash-text">Profile</a>
+            </li>
+            <li class="">
+              <a href="/Billing.html" class="dash-text"> Billing</a>
+            </li>
+            <li class="">
+              <a href="/Security.html" class="dash-text"> Sécurity</a>
+            </li>
+          </ul>
+        </div>
+        <div class="profil-head">
+          <div class="row">
+            <div class="col-4 par1">
+              <div class="card-im">
+                <div class="card" style="width: 25rem">
+                  <h5 class="card-title">Profile pucture</h5>
+                  <div class="card-body">
+                    <img src="images/image/photo2.png" class="card-img-top" alt="photo" />
+                    <p class="card-text">JPEG or PNG no larger than 5MB</p>
+                    <button href="#" class="btn btn-primary1">Uploaded new image</button>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="col-8 par2">
+              <div class="card mb-3">
+                <h5 class="card-title-Pro">Details Account</h5>
+                <div class="card-body">
+                  <p class="para-for">Username ( how your name appear to other users on site</p>
+                  <form>
+                    <div class="row">
+                      <div class="col-12">
+                        <label for="adresse" class="form-label"></label>
+                        <input id="adresse" class="form-control" type="text" name="" placeholder="Username" />
+                      </div>
+                    </div>
+                    <div class="row">
+                      <div class="col-6">
+                        <div class="mb-3">
+                          <label for="input-Email1" class="form-label">First name</label>
+                          <input type="email" class="form-control" id="input-Email2" aria-describedby="emailHelp" />
+                          <div id="emailHelp" class="form-text"></div>
+                        </div>
+                      </div>
+                      <div class="col-6">
+                        <div class="mb-3">
+                          <label for="inputMdp" class="form-label">Last na me</label>
+                          <input type="password" class="form-control" id="inputMdp" />
+                        </div>
+                      </div>
+                    </div>
+                    <div class="row">
+                      <div class="col-6">
+                        <div class="mb-3">
+                          <label for="input_Email" class="form-label">Organization name</label>
+                          <input type="email" class="form-control" id="input-Email3" aria-describedby="emailHelp" />
+                          <div id="emailHelp" class="form-text"></div>
+                        </div>
+                      </div>
+                      <div class="col-6">
+                        <div class="mb-3">
+                          <label for="inputMdp" class="form-label">location</label>
+                          <input type="password" class="form-control" id="inputMdp" />
+                        </div>
+                      </div>
+                    </div>
+                    <div class="row">
+                      <div class="col-12">
+                        <label for="input-Email4" class="form-label">Adresse email</label>
+                        <input type="email" class="form-control" id="input-Email5" aria-describedby="emailHelp" />
+                        <div id="emailHelp" class="form-text"></div>
+                      </div>
+                    </div>
+                    <div class="row">
+                      <div class="col-6">
+                        <div class="mb-3">
+                          <label for="input-Email6" class="form-label">Phone number</label>
+                          <input type="email" class="form-control" id="input-Email7" aria-describedby="emailHelp" />
+                          <div id="emailHelp" class="form-text"></div>
+                        </div>
+                      </div>
+                      <div class="col-6">
+                        <div class="mb-3">
+                          <label for="inputMdp" class="form-label">Birthday</label>
+                          <input type="password" class="form-control" id="inputMdp" />
+                        </div>
+                      </div>
+                    </div>
+                    <button type="submit" class="btn btn-primary">Save changes</button>
+                  </form>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>

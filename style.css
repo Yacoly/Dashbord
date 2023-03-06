@@ -1,0 +1,421 @@
+body {
+  background: #eee;
+}
+
+#side-nav {
+  background: #fff;
+  min-width: 250px;
+  max-width: 250px;
+  position: fixed;
+  min-height: 100vh;
+}
+.content {
+  min-height: 100vh;
+  width: 100%;
+  margin-left: 260px;
+  padding: 0 10px;
+}
+span.text-dark {
+  font-size: 25px;
+}
+.sidebar li.active {
+  background: #eee;
+  border-radius: 8px;
+}
+.h-color {
+  background: #eee;
+}
+a.dash-text {
+  text-decoration: none;
+  padding: 15px;
+  display: block;
+  color: black;
+  font-size: 21px;
+  word-spacing: 15px;
+}
+.fa {
+  display: contents;
+}
+i.fa.fa-user-circle-o {
+  display: contents;
+}
+button.btn.btn-labeled.btn-success {
+  width: 179px;
+  background-color: aliceblue;
+  color: black;
+  border: none;
+  height: 37px;
+}
+span.btn-label {
+  display: flex;
+  justify-content: space-between;
+}
+ul.nav.nav-pills.nav-justified {
+  padding: 17px;
+}
+
+i.fa.fa-bell-o {
+  font-size: 20px;
+}
+i.fa.fa-envelope-o {
+  font-size: 20px;
+}
+.main-container.d-flex {
+  background-color: aliceblue;
+}
+.text.-t {
+  color: #0644a1;
+  font-family: Montserrat;
+}
+.text-p {
+  font-family: "Montserrat";
+}
+.col.text {
+  margin-top: 89px;
+  margin-left: 24px;
+}
+h5.para-dash {
+  font-size: 128%;
+}
+
+.buton {
+  padding-top: 32px;
+}
+button.btn.btn-primary {
+  width: 129px;
+  font-size: x-large;
+}
+.haed-dash {
+  background: #ffffff;
+  border-radius: 10px;
+  margin-top: 38px;
+}
+.card-conten {
+  padding-top: 45px;
+}
+.card {
+  background: #ffffff;
+  border-radius: 9px !important;
+}
+p.card-title1 {
+  color: #0161f3;
+}
+p.card-title2 {
+  color: #b20ca2;
+}
+p.card-title3 {
+  color: #169e6c;
+}
+p.card-title4 {
+  color: #169e6c;
+}
+p.card-chi4 {
+  color: #fb0606;
+}
+p.card-chi3 {
+  color: #44a622;
+}
+p.card-chi2 {
+  color: #fb0606;
+}
+p.card-chi1 {
+  color: #44a622;
+}
+.card-mi {
+  padding-top: 5%;
+}
+h5.card-title {
+  background-color: aliceblue;
+  padding: 4%;
+}
+.card.mb-3 {
+  padding-bottom: 7%;
+}
+.card.imleft {
+  padding: 3%;
+}
+.card-body {
+  text-align: center;
+}
+p.card-text-M {
+  color: #000000;
+  font-family: Montserrat;
+  font-size: 15px;
+}
+.title-head {
+  display: flex;
+  background-color: #ffffff;
+  padding: 2%;
+  gap: 2%;
+}
+h4.card-title-M {
+  font-family: Montserrat;
+  padding-bottom: 8%;
+  font-size: 23px;
+}
+a.btn.btn-primary {
+  width: 91px;
+  font-size: 17px;
+}
+.row.dash-M {
+  justify-content: space-around;
+}
+i.fa.fa-user-o {
+  font-size: 23px;
+}
+ul.navli-head {
+  display: flex;
+  list-style: none;
+  background-color: aliceblue;
+}
+ul.navli-head:hover {
+  text-decoration: underline;
+}
+button.btn.btn-primary1 {
+  background: #0161f3;
+  color: white;
+}
+h5.card-title-Pro {
+  background-color: aliceblue;
+  padding: 3%;
+  text-align: initial;
+  color: #0161f3;
+}
+p.para-for {
+  text-align: initial;
+}
+.col-12 {
+  text-align: initial;
+}
+button.btn.btn-primary {
+  display: block;
+  margin-top: 3%;
+}
+.card-bill {
+  margin-left: 5%;
+}
+p.para-dash-B1 {
+  text-align: justify;
+  color: gray;
+}
+h2.card-title-B1 {
+  text-align: initial;
+}
+p.card-text-1 {
+  text-align: justify;
+  color: #0161f3;
+  padding-bottom: 7%;
+}
+p.para-dash-B2 {
+  text-align: justify;
+  color: gray;
+}
+h2.card-title-B2 {
+  text-align: justify;
+}
+p.card-text-2 {
+  text-align: justify;
+  color: #5c0da6;
+  padding-bottom: 7%;
+}
+p.para-dash-B3 {
+  text-align: left;
+  color: gray;
+}
+h2.card-title-B3 {
+  text-align: justify;
+}
+p.card-text-3 {
+  text-align: justify;
+  color: #44a622;
+  padding-bottom: 7%;
+}
+i.fa.fa-arrow-right {
+  margin-left: 3%;
+}
+
+td.text-S {
+  gap: 2%;
+  display: flex;
+  align-items: center;
+}
+
+td.text-S1 {
+  gap: 2%;
+  display: flex;
+  align-items: center;
+}
+
+td.text-S2 {
+  gap: 2%;
+  display: flex;
+  align-items: center;
+}
+i.fa.fa-cc-mastercard {
+  font-size: 50px;
+}
+
+i.fa.fa-cc-visa {
+  font-size: 50px;
+}
+
+i.fa.fa-cc-amex {
+  font-size: 50px;
+}
+td.tab-right {
+  text-align: end;
+}
+td.tb-rig {
+  text-align: center;
+}
+td.tab-right {
+  text-align: end;
+}
+button.btn.btn-primary-T {
+  background-color: #0161f3;
+  color: white;
+}
+.container.mt-3 {
+  background-color: #ffff;
+}
+
+tr.bak-col {
+  background-color: aliceblue;
+  padding: 2;
+}
+.table-Bi {
+  padding-top: 3%;
+}
+.container.mt-3 {
+  background-color: #ffff;
+  width: 90%;
+  padding-bottom: 2%;
+}
+
+button.btn.btn-link-T {
+  color: #0161f3;
+}
+.tab-bottom {
+  padding-top: 5%;
+}
+h2.titre-ta {
+  background-color: aliceblue;
+  padding: 1%;
+  color: #0161f3;
+}
+thead {
+  font-size: xx-large;
+  font-family: Montserrat;
+}
+td {
+  font-size: larger;
+}
+span.colori {
+  background-color: yellowgreen;
+  padding: 5px;
+}
+button.btn.btn-link {
+  text-decoration: none;
+}
+.card {
+  border-left-color: cyan;
+}
+
+h4.tit-tbl {
+  background-color: aliceblue;
+  padding: 3px;
+  margin-top: 16%;
+  color: #0161f3;
+}
+table.table {
+  background-color: #ffffff;
+}
+.footer-Im {
+  display: flex;
+  justify-content: space-around;
+  padding-top: 8%;
+}
+.card-1 {
+  background-color: #ffffff;
+  border-radius: 10px;
+
+  border: solid 0.4em white;
+  border-left-color: #0161f3;
+  width: auto;
+}
+.card-2 {
+  background-color: #ffffff;
+  border-radius: 10px;
+  border: solid 0.4em white;
+  border-left-color: #44a622;
+  width: auto;
+}
+.card-3 {
+  background-color: #ffffff;
+  border-radius: 10px;
+  border: solid 0.4em white;
+
+  width: auto;
+}
+.card-A {
+  background-color: #ffffff;
+  border-radius: 8px;
+  border: solid 0.4em white;
+  border-left-color: #0161f3;
+  width: auto;
+}
+.card-B {
+  background-color: #ffffff;
+  border-radius: 8px;
+  border: solid 0.4em white;
+  border-left-color: #b20ca2;
+  width: auto;
+}
+.card-C {
+  background-color: #ffffff;
+  border-radius: 8px;
+  border: solid 0.4em white;
+  border-left-color: #169e6c;
+  width: auto;
+}
+.card-D {
+  background-color: #ffffff;
+  border-radius: 8px;
+  border: solid 0.4em white;
+  border-left-color: #12c5c9;
+  width: auto;
+}
+h5.card-title {
+  color: #0161f3;
+}
+li.ik-1 {
+  list-style: none;
+}
+li.ik-2 {
+  list-style: none;
+}
+li.ik-3 {
+  list-style: none;
+}
+.card-b-f {
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+}
+h1.card-title {
+  font-size: 52px;
+}
+.card-f-f {
+  background-color: #0161f3;
+  border-radius: 8px;
+  color: #ffff;
+}
+h5.cart-T-f {
+  font-size: 16px;
+}
+p.pa-dash {
+  color: #0061f2;
+}
+
+@media screen and (max-width: 780px) {
+}
